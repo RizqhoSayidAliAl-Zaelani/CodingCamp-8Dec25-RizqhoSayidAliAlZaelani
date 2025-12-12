@@ -1,0 +1,93 @@
+body {
+    background: #0e1628;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    color: white;
+}
+
+.container {
+    background: #1f2a44;
+    padding: 25px;
+    width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px #0004;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    display: flex;
+    gap: 10px;
+}
+
+.form-group input {
+    flex: 1;
+    padding: 10px;
+    background: #0e1628;
+    border: 1px solid #435b8c;
+    color: white;
+    border-radius: 5px;
+}
+
+#add-btn {
+    padding: 10px 15px;
+    background: #6d8fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.actions {
+    margin: 15px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.actions button {
+    padding: 8px 15px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.danger {
+    background: #ff5b5b;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th, td {
+    padding: 10px;
+    background: #0e1628;
+    text-align: left;
+}
+
+.empty {
+    text-align: center;
+    color: #aaa;
+}
+
+.action-btn {
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
+
+.complete-btn {
+    background: #28c76f;
+}
+
+.delete-btn {
+    background: #ff5b5b;
+}
