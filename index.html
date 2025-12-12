@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>To-Do List Web Application</h2>
+
+        <div class="form-group">
+            <input type="text" id="todo-input" placeholder="Add a todo...">
+            <input type="date" id="date-input">
+            <button id="add-btn">+</button>
+        </div>
+
+        <div class="actions">
+            <button id="filter-btn">FILTER</button>
+            <button id="delete-all-btn" class="danger">DELETE ALL</button>
+        </div>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Task</th>
+                    <th>Due Date</th>
+                    <th>Status</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody id="todo-list">
+                <tr><td colspan="4" class="empty">No task found</td></tr>
+            </tbody>
+        </table>
+        <h2>Sekian dan Terima Kasih RevoU! :)</h2>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
